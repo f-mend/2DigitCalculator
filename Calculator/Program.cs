@@ -154,27 +154,5 @@ namespace Calculator
             Console.WriteLine($"Hit any key to exit!");
             Console.ReadKey();
         }
-
-
-        // App isnt big enough to warrent OOP class seperation IMO
-        static double Add(double numA, double numB)
-        {
-            return numA + numB;
-        }
-
-        static double Subtract(double numA, double numB)
-        {
-            return numA - numB;
-        }
-
-        static double Multiply(double numA, double numB)
-        {
-            return numA * numB;
-        }
-
-        static double Divide(double numA, double numB)
-        {
-            return numA / numB;
-        }
     }
 }
